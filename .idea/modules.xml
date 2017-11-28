@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bowling.iml" filepath="$PROJECT_DIR$/bowling.iml" />
       <module fileurl="file://$PROJECT_DIR$/bowlingchallange.iml" filepath="$PROJECT_DIR$/bowlingchallange.iml" />
     </modules>
   </component>

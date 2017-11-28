@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bowling" />
         <module name="bowlingchallange" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bowling" target="1.5" />
       <module name="bowlingchallange" target="1.5" />
     </bytecodeTargetLevel>
   </component>
