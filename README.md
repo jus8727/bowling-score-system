@@ -2,7 +2,7 @@
 
 #### How to run
 * mvn clean install(optional only to make modifications) Jar file is included.
-* From /bowling-score-system/ run java -jar ./target/bowling-1.0.jar
+* From /bowling-score-system/  run the follwing command  "java -jar ./target/bowling-1.0.jar"
 
 
 ### Design Structure
