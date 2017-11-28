@@ -2,7 +2,7 @@
 
 #### How to run
 * mvn clean install(optional only to make modifications) Jar file is included.
-* From /bowlingchallange run java -jar ./target/bowling-1.0.jar
+* From /bowling-score-system/ run java -jar ./target/bowling-1.0.jar
 
 
 ### Design Structure
@@ -16,6 +16,6 @@
 Please pay special attention to the tests in this file to confirm expected functionality
 
 
-### Known Issues and Comments
+###Known Issues and Comments
 * Even though this bowling system handles all ten pin rules including bonus turns in the last frame, The scoring logic in Gamestate regarding the handling of the last frame is not too readable and should be made more elegant.
 * Exception handling needs some work. Right now if illegal turns will result in an illegalArgumentException. The calling class is responsible for catching and handling this. This may need to be refined.
